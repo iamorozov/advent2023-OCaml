@@ -1,8 +1,0 @@
-# Advent of code 2023 in OCaml
-
-How to run?
-
-```
-dune build
-dune exec dayN
-```
