@@ -1,0 +1,4 @@
+(executable
+ (public_name day8)
+ (libraries core zarith)
+ (name day8))
