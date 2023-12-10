@@ -35,4 +35,8 @@ _opam/
 # year 2022
 2022/
 
+#input files
+*input
+*input_test
+
 # End of https://www.toptal.com/developers/gitignore/api/ocaml
