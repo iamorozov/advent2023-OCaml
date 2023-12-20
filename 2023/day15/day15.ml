@@ -18,17 +18,6 @@ let solve input =
   |> List.map ~f:hash
   |> List.reduce_exn ~f:(+)
 
-
-(* 
-   Box operations:
-    - find by label
-    - remove by label and shift elements
-    - replace by label
-    - add from behind
-
-  Assoc list: find O(N) remove-move O(1) replace O(N) add O(1)
-  LinkedHashMap: find O(1) remove-move O(1) replace O(1) add O(1)
-*)
 let get_op step = 
   if String.contains step '=' 
   then (
