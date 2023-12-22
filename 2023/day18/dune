@@ -1,0 +1,5 @@
+(executable
+ (public_name day18)
+ (libraries core ppx_jane core_kernel.pairing_heap)
+ (preprocess (pps ppx_jane))
+ (name day18))
