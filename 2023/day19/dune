@@ -1,0 +1,5 @@
+(executable
+ (public_name day19)
+ (libraries core ppx_jane angstrom)
+ (preprocess (pps ppx_jane))
+ (name day19))
